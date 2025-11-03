@@ -2,5 +2,6 @@
   "name": "@thomazdcprates/hello-world",
   "version": "0.0.1",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "gitHead": "469db56a25be823ee695bc9c48bba672e86b3b6d"
 }
