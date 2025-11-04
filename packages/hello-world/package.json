@@ -5,7 +5,8 @@
   "types": "dist/index.d.ts",
   "private": false,
   "scripts": {
-    "build": "tsc -p tsconfig.json && cp package.json dist/package.json && cp readme.md dist/readme.md"
+    "build": "tsc -p tsconfig.json && cp package.json dist/package.json && cp readme.md dist/readme.md",
+    "prepublish": "npm run build"
   },
   "publishConfig": {
     "access": "restricted"
