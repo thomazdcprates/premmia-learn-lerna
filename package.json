@@ -1,7 +1,12 @@
 {
   "name": "premmia-learn-lerna",
   "private": true,
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "devDependencies": {
     "lerna": "^8.1.0",
     "typescript": "^5.6.3"

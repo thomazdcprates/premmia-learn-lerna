@@ -1,5 +1,9 @@
 {
+  "packages": ["packages/*"],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
-  "version": "0.0.7",
-  "npmClient": "npm"
+  "useWorkspaces": true,
+  "version": "independent"
 }
