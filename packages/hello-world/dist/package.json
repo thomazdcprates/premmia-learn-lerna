@@ -1,14 +1,14 @@
 {
   "name": "@thomazdcprates/hello-world",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": false,
   "scripts": {
-    "build": "tsc -p tsconfig.json && cp package.json dist/package.json && cp readme.md dist/readme.md"
+    "build": "tsc -p tsconfig.json && cp package.json dist/package.json && cp readme.md dist/readme.md && cp LICENSE.md dist/LICENSE.md"
   },
   "publishConfig": {
     "access": "restricted"
   },
-  "gitHead": "8fec966841c47155ef8699ad4bd3814ffa3ecd5d"
+  "gitHead": "90680ca34915f84bcd27740de2a53942797e5c11"
 }
