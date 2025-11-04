@@ -9,6 +9,6 @@
   "scripts": {
     "build": "lerna run build",
     "clean": "rm -rf node_modules packages/**/node_modules packages/**/dist",
-    "publish-package": "npx lerna publish --contents dist"
+    "publish-package": "lerna publish --contents dist"
   }
 }
