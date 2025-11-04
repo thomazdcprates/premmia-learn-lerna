@@ -5,10 +5,10 @@
   "types": "dist/index.d.ts",
   "private": false,
   "scripts": {
-    "build": "tsc -p tsconfig.json"
+    "build": "tsc -p tsconfig.json && cp package.json dist/package.json && cp readme.md dist/readme.md"
   },
   "publishConfig": {
     "access": "restricted"
   },
-  "gitHead": "1848eda82fc47686a432c15f30aa242fa54b223b"
+  "gitHead": "8fec966841c47155ef8699ad4bd3814ffa3ecd5d"
 }
