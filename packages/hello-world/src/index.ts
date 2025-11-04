@@ -1,4 +1,4 @@
 export function helloWorld(): string {
-  console.log("Hello, world!");
-  return "Hello, world!";
+  console.log("Hello, worldsssss!");
+  return "Hello, worldsssss!";
 }
