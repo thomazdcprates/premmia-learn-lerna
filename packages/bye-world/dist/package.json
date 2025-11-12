@@ -1,6 +1,6 @@
 {
   "name": "@thomazdcprates/bye-world",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": false,
@@ -11,5 +11,5 @@
   "publishConfig": {
     "access": "restricted"
   },
-  "gitHead": "0603f779a6623223ce083d213d4efedfa29d2da8"
+  "gitHead": "21a36fc6e8622bbceeaa037d1f21df7f11d42118"
 }

@@ -22,6 +22,7 @@ class Dynamodb {
     try {
       const command = new ScanCommand({ TableName: tableName });
       const result = await this.client.send(command);
+      
       return result.Items ?? [];
     } catch (error) {
       if (error instanceof Error) {
@@ -36,6 +37,7 @@ class Dynamodb {
     try {
       const command = new GetCommand({ TableName: tableName, Key: key });
       const result = await this.client.send(command);
+
       return result.Item;
     } catch (error) {
       if (error instanceof Error) {

@@ -6,7 +6,8 @@
   "private": false,
   "scripts": {
     "build": "tsc -p tsconfig.json && cp package.json dist/package.json && cp readme.md dist/readme.md",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "test": "jest --clearCache && NODE_ENV=test TZ=utc jest --ci --verbose"
   },
   "publishConfig": {
     "access": "restricted"
