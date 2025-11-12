@@ -1,5 +1,5 @@
 {
-  "name": "@thomazdcprates/bye-world",
+  "name": "@thomazdcprates/dynamodb",
   "version": "0.0.11",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -11,5 +11,9 @@
   "publishConfig": {
     "access": "restricted"
   },
-  "gitHead": "0603f779a6623223ce083d213d4efedfa29d2da8"
+  "gitHead": "0603f779a6623223ce083d213d4efedfa29d2da8",
+  "devDependencies": {
+    "@aws-sdk/client-dynamodb": "^3.929.0",
+    "@aws-sdk/lib-dynamodb": "^3.929.0"
+  }
 }
