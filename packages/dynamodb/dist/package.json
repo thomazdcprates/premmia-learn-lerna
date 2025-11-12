@@ -6,12 +6,13 @@
   "private": false,
   "scripts": {
     "build": "tsc -p tsconfig.json && cp package.json dist/package.json && cp readme.md dist/readme.md",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "test": "jest --clearCache && NODE_ENV=test TZ=utc jest --ci --verbose"
   },
   "publishConfig": {
     "access": "restricted"
   },
-  "gitHead": "21a36fc6e8622bbceeaa037d1f21df7f11d42118",
+  "gitHead": "0603f779a6623223ce083d213d4efedfa29d2da8",
   "devDependencies": {
     "@aws-sdk/client-dynamodb": "^3.929.0",
     "@aws-sdk/lib-dynamodb": "^3.929.0"
