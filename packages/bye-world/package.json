@@ -1,0 +1,15 @@
+{
+  "name": "@thomazdcprates/bye-world",
+  "version": "0.0.10",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.json && cp package.json dist/package.json && cp readme.md dist/readme.md",
+    "prepublish": "npm run build"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "gitHead": "0603f779a6623223ce083d213d4efedfa29d2da8"
+}
